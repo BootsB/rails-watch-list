@@ -11,6 +11,20 @@
   </head>
 
   <body>
+    <nav class="navbar sticky-top bg-primary">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand ms-2" style="color: white";>LISTS</a>
+        </div>
+        <div>
+          <ul class="nav navbar-nav navbar-right p-2">
+            <li><a href="/lists/new" class="btn btn-outline-light">New list</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div >
     <%= yield %>
+    </div>
   </body>
 </html>
